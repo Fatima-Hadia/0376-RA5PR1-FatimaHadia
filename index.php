@@ -40,5 +40,11 @@ for ($i = 1; $i <= 10; $i++) {
 }
 	
 ?>
+<form action="index.php" method="post">
+        <label>Introduce un número:</label>
+        <input type="text" name="input">
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
